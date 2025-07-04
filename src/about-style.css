@@ -1,0 +1,33 @@
+:root {
+    --font-heading: 'League Spartan';
+    --font-body: 'quicksand';
+    --color-n01: #008DDA;
+    --color-n02: #00BCD4;
+    --color-n03: #ACE2E1;
+    --color-n04: #F7EEDD;
+    --light-bg-color: #FFF7F0FF;
+}
+
+body {
+    background-color: var(--color-n03);
+}
+
+.navbar {
+    font-family: var(--font-body), sans-serif;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.title {
+    font-family: var(--font-heading), sans-serif;
+    font-size: 6em;
+    font-weight: 700;
+
+}
+
+.biography-section {
+    font-family: var(--font-body), sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    background-color: var(--color-n04);
+}
