@@ -1,0 +1,43 @@
+:root {
+    --font-family-header: 'Notable';
+    --font-family-body: 'Space Mono';
+    --font-family-ui: 'Space Mono';
+    --font-size-ui: 1.2em;
+    --font-size-header: 5em;
+    --font-size-body: 1.3em;
+    --color-code01: #FFF8E8;
+    --color-code02: #B3D8A8;
+    --color-code03: #E55050;
+    --color-code04: #515151;
+
+}
+
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.notable-regular {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
