@@ -26,7 +26,7 @@
 
 .see-project-btn:hover {
     text-decoration: underline;
-    text-decoration-color: var(--color-code03);
+    color: var(--color-code03);
 }
 
 /*about page*/
@@ -69,4 +69,56 @@
 
 .project-desc-box {
     background-color: var(--color-code01);
+}
+
+/*contact page*/
+.page-header {
+    font-family: var(--font-family-ui), sans-serif;
+    font-size: calc(var(--font-size-header) - 1rem);
+    font-weight: bold;
+    color: white;
+}
+
+.word-touch {
+    font-family: var(--font-family-header), sans-serif;
+}
+
+.contact-info-box {
+    width: fit-content;
+    margin: 2rem auto;
+    background-color: var(--color-code01);
+}
+
+.email-link {
+    font-family: var(--font-family-body), sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+    color: var(--color-code03);
+}
+
+.contact-info {
+    font-family: var(--font-family-body), sans-serif;
+    font-size: var(--font-size-body);
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.linkedin-link {
+    color: black;
+    text-decoration: none;
+}
+
+.linkedin-link:hover {
+    text-decoration: underline;
+    color: var(--color-code02);
+}
+
+.linkedin-emoji:hover {
+    text-decoration: none;
 }
