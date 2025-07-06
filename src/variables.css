@@ -2,9 +2,28 @@
     --font-family-header: 'Notable';
     --font-family-body: 'Space Mono';
     --font-family-ui: 'Space Mono';
-    --font-size-ui: 1.2em;
-    --font-size-header: 5em;
-    --font-size-body: 1.3em;
+    --font-size-ui: clamp(1rem, 1.5vw, 1.2rem);
+    --font-size-header: clamp(2.5rem, 6vw, 5rem);
+    --font-size-body: clamp(1rem, 2vw, 1.3rem);
+
+    /* overrides for spacing utilities */
+    .p-5, .px-5, .py-5 {
+        padding: clamp(1rem, 2vw, 2rem) !important;
+    }
+
+    .p-4, .px-4, .py-4 {
+        padding: clamp(0.75rem, 1.5vw, 1.5rem) !important;
+    }
+
+    .p-3, .px-3, .py-3 {
+        padding: clamp(0.5rem, 1vw, 1rem) !important;
+    }
+
+    /* same for margins if needed */
+    .m-5, .mx-5, .my-5 {
+        margin: clamp(1rem, 2vw, 2rem) !important;
+    }
+
     --color-code01: #FFF8E8;
     --color-code02: #B3D8A8;
     --color-code03: #E55050;
