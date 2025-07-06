@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Notable&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
   <!--  stylesheets (which I separated them for readibilty and DRY coding principle -->
   <link rel="stylesheet" href="src/variables.css">
@@ -21,6 +22,7 @@
 
 </head>
 <body class="about-page">
+
 <nav class="navbar" data-bs-theme="dark">
   <div class="container-fluid">
       <ul class="navbar-nav mb-2 mb-lg-0 flex-row gap-md-4 gap-3 mx-sm-0 mx-auto">
@@ -42,6 +44,7 @@
     </div>
 </nav>
 
+<main class="flex-fill">
 <div class="container p-3 my-2">
   <h1 class="title text-center mt-5">
       My Journey⛵
@@ -51,6 +54,27 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
 </div>
+</main>
+
+
+
+<footer class="footer about-page-footer footer-container mt-auto p-5 d-flex align-items-center justify-content-center gap-4">
+  <a class="footer-section" href="contact.html">
+    <div class="footer-box d-flex flex-column flex-wrap align-items-center">
+      <i class="bi bi-link-45deg footer-logo"></i>
+      <span class="footer-section-text">
+            Email
+        </span>
+    </div>
+  </a>
+
+  <a class="footer-section" href="https://github.com/avorrit">
+    <div class="footer-box d-flex flex-column flex-wrap align-items-center">
+      <i class="bi bi-github footer-logo"></i>
+      <span class="footer-section-text">Avorrit</span>
+    </div>
+  </a>
+</footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>

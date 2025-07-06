@@ -125,3 +125,77 @@
 .linkedin-emoji:hover {
     text-decoration: none;
 }
+
+/*footer section*/
+
+footer a {
+    text-decoration: none;
+}
+
+footer.footer-container a {
+    color: inherit;
+}
+
+footer.footer-container i{
+    font-size: clamp(20px, 4vw, 36px);
+    transition: color 0.2s ease;
+    color: inherit;
+}
+
+footer.footer-container span {
+    transition: color 0.2s ease;
+    color: inherit;
+}
+
+.footer-section {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-section .footer-box {
+    transition: transform 0.2s ease;
+}
+
+.footer-section:hover .footer-box {
+    transform: scale(1.2);
+}
+
+
+/*colorssss=))))))*/
+.index-page-footer .footer-section {
+    color: var(--color-code04);
+}
+
+.index-page-footer .footer-section:hover {
+    color: var(--color-code03);
+}
+
+
+
+/*about page colors*/
+.about-page-footer .footer-section {
+    color: var(--color-code01);
+}
+
+.about-page-footer .footer-section:hover {
+    color: var(--color-code04);
+}
+
+
+/*projects page colors*/
+
+.project-page-footer .footer-section {
+    color: var(--color-code03);
+}
+
+.project-page-footer .footer-section:hover {
+    color: var(--color-code04);
+}
+
+
+
+@media (max-width: 576px) {
+    .footer-container i {
+        font-size: 28px;
+    }
+}
