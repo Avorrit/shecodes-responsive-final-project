@@ -198,4 +198,12 @@ footer.footer-container span {
     .footer-container i {
         font-size: 28px;
     }
+
+    .footer-section .footer-box {
+        transition: transform 0.2s ease;
+    }
+
+    .footer-section:hover .footer-box {
+        transform: scale(1.2);
+    }
 }
